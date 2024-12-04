@@ -82,7 +82,7 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 
 ## Forkers
 
-[![Forkers repo roster for @tikuzaa/Quiz-app-frontend](https://reporoster.com/forks/tikuzaa/Quiz-app-frontend)](https://github.com/tikuzaa/Quiz-app-frontend/network/members)
+[![Forkers repo roster for @Hackerspace2023/Quiz-App-Frontend](https://reporoster.com/forks/Hackerspace2023/Quiz-App-Frontend)](https://github.com/Hackerspace2023/Quiz-App-Frontend/network/members)
 
 ## License
 
