@@ -43,19 +43,19 @@ To run this project locally, follow these steps:
 ## Contributing
 
 ## Landing Page Design Template
-![image](https://github.com/user-attachments/assets/638ef338-4f94-4577-a564-44862a8d83c7)
+![image](https://github.com/user-attachments/assets/7ca1281e-3791-4276-9a55-fcf583d50d48)
 **User Interface:**
 1. Contains Rules for the Quiz App
 2. A Continue button which redirects to Login Page
 
 ## Login Page Design Template
-![image](https://github.com/user-attachments/assets/8f2e5f17-29d9-4fa2-9273-e7e6f419ea61)
+![image](https://github.com/user-attachments/assets/4dfb6ffc-cd89-4f3e-b0e1-d7dbff322919)
 **User Interface:**
 1. Contains a text Box to Enter User Name (It should be a required field)
 2. A Button to Start The Quiz
 
 ## Quiz Questions Page
-![image](https://github.com/user-attachments/assets/93a6ff94-952c-462f-be2c-aa53cdb9eb9d)
+![image](https://github.com/user-attachments/assets/22684245-f942-4344-becc-7a2221cffa86)
 **User Interface:**
 1. Contains questions and options to select from
 2. Has a timer for each question (set it to 15sec)
@@ -68,7 +68,7 @@ To run this project locally, follow these steps:
 4. For each correct option selected the score is counted
 
 ## Quiz End Page
-![image](https://github.com/user-attachments/assets/1ffa4614-68a6-481a-a906-318461e7ad24)
+![image](https://github.com/user-attachments/assets/a33de08c-6722-4490-8918-3c1acd4877b0)
 **User Interface:**
 1. Contains a Thank You Message
 2. A Retry Button which redirects to Landing Page
