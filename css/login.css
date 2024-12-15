@@ -3,9 +3,89 @@
 
 
 /**CSS Reset**/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ebebeb !important; 
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    background-color: white;
+    height: 510px;
+    width: 570px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.sign-in {
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sign-in h1 {
+    font-size: 50px;
+}
+
+.inputs {
+    gap: 0.1em;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.inputs input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+.remember-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.sign_in-button {
+    margin: 40px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.sign_in-button button{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
 }

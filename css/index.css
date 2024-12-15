@@ -1,9 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /**CSS Reset**/
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    height: 180px;
+    font-weight: 800px;
+}
+
+.navbar img {
+    height: 200px;
+    width: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.rest-navbar {
+    display: flex;
+    gap: 2.5em;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.start button {
+    width: 150px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    border: 3.5px solid black;
+    border-radius: 12px;
+    transition: 0.25s ease-in;
+}
+
+.start button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s ease-in;
 }
