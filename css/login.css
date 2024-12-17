@@ -3,9 +3,63 @@
 
 
 /**CSS Reset**/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+
+.container img {
+    position: absolute;
+    padding: 0;
+    margin: 0 !important;
+    width: 1552px;
+    height: 690px;
+}
+
+.container .rules-box {
+    padding: 25px;
+    border: 5px solid black;
+    top: 135px;
+    left: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: yellow;
+    width: 650px;
+    height: 420px;
+    opacity: 0.92;
+}
+
+.rules-box input{
+    width: 200px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    align-self: center;
+    background-color: yellow;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+
+.rules-box p{
+    margin: 5px;
+}
+
+.rules-box button{
+    font-size: 25px;
+    margin-top: 50px;
+    align-self: center;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(33, 233, 43);
+    border-radius: 12px;
 }
