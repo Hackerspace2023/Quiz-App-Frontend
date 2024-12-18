@@ -3,12 +3,12 @@
 
 
 function countdown() {
-    var seconds = 11;
+    var seconds = 15;
     function tick() {
       var counter = document.getElementById("centered");
       seconds--;
       counter.innerHTML =
-        + (seconds < 10 ? "" : "") + String(seconds);
+        + (seconds < 10 ? "0" : "") + String(seconds);
       if (seconds > 0) {
         setTimeout(tick, 1000);
       }
