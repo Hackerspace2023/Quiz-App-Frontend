@@ -16,40 +16,56 @@
     position: absolute;
     padding: 0;
     margin: 0 !important;
-    width: 1552px;
-    height: 690px;
+    width: 100%;
+    height: 100%;
 }
 
 .container .rules-box {
     padding: 25px;
     border: 5px solid black;
-    top: 135px;
-    left: 450px;
+    top: 20%;
+    left: 28%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: absolute;
     background-color: yellow;
     width: 650px;
-    height: 420px;
+    height: 370px;
     opacity: 0.92;
 }
 
-.rules-box h2{
+.rules-box h2 {
     font-weight: 900;
     margin-bottom: 10px;
     align-self: center;
 }
 
-.rules-box p{
+.rules-box p {
     margin: 5px;
 }
 
-.rules-box button{
-    margin-top: 10px;
+.rules-box button {
+    margin-top: 20px;
     align-self: center;
     width: 200px;
     height: 50px;
     background-color: rgb(33, 233, 43);
     border-radius: 12px;
+    box-shadow: 3px 5px 2px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:active {
+    box-shadow: 3px 3px 2px;
+    transform: translateY(4px);
+}
+
+button a:visited {
+    text-decoration: none !important;
+    color: black !important;
 }
