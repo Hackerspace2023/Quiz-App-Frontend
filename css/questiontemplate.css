@@ -22,72 +22,16 @@ img{
 }
 
 .question-box{
-    /* padding: 25px; */
+    padding: 25px;
     border: 5px solid black;
-    top: 20vh;
+    top: 135px;
     left: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: absolute;
     background-color: yellow;
-    justify-content: space-evenly;
     width: 650px;
-    height: auto;
+    height: 420px;
     opacity: 0.92;
-    border-radius: 10px;
 }
-.timmer {
-    /* text-align: center; */
-    display: inline;   
-    margin-left: 620px;
-    height: 30px;
-}
-.Semi_Circle {
-    height: 230px;
-    width: 300px;
-}
-.Next {
-    background-color: rgb(5, 219, 19);
-    height: 40px;
-    width: 180px;
-    border-color: black;
-    text-align: center;
-    border: 5px solid black;
-    border-radius: 5px;
-}
-.question-box .question{
-    padding: 20px;
-    height: auto;
-    border: 5px solid black;
-    margin: 10px;
-    border-radius: 10px;
-}
-.question-box .next_button {
-    text-align: center;
-    margin: auto;
-    margin-bottom: 20px;
-}
-.question-box .answers .options {
-    height: auto;
-    border: 5px solid black;
-    margin: 30px;
-    border-radius: 10px;
-    padding: 5px;
-    padding-left: 20px;
-}
-.centered {
-    position: absolute;
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    margin-top: 85px;
-    text-align: center;
-    margin-left: 20px;
-    z-index: 2;
-    position: relative;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-weight: bold;
-  }
